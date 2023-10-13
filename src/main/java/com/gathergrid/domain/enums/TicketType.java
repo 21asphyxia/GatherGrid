@@ -1,4 +1,4 @@
-package org.example.domain.enums;
+package com.gathergrid.domain.enums;
 
 public enum TicketType {
     STANDARD,VIP

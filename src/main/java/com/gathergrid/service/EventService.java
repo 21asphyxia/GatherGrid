@@ -1,7 +1,6 @@
-package org.example.service;
+package com.gathergrid.service;
 
-import org.example.domain.Event;
-import org.example.repository.EventRepository;
+import com.gathergrid.repository.EventRepository;
 
 public class EventService {
 

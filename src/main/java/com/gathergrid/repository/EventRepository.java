@@ -1,6 +1,6 @@
-package org.example.repository;
+package com.gathergrid.repository;
 
-import org.example.domain.Event;
+import com.gathergrid.domain.Event;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
@@ -8,7 +8,7 @@ import jakarta.persistence.Persistence;
 public class EventRepository {
     private final EntityManagerFactory entityManagerFactory;
     public EventRepository(){
-        entityManagerFactory= Persistence.createEntityManagerFactory("my-persistence-unit");
+        entityManagerFactory= Persistence.createEntityManagerFactory("default");
     }
 
     public void save(Event event){

@@ -1,7 +1,8 @@
-package org.example.domain;
+package com.gathergrid.domain;
 
 import jakarta.persistence.*;
 import java.sql.Time;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Objects;
@@ -17,7 +18,7 @@ public class Event {
     private String description;
     @ManyToOne
     private Category category;
-    @OneToMany
+    @OneToMany(mappedBy = "event")
     private List<Comment> comment;
 
     public Event() {

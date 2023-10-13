@@ -1,4 +1,4 @@
-package org.example.domain;
+package com.gathergrid.domain;
 
 import jakarta.persistence.*;
 

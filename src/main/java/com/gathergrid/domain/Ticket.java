@@ -1,6 +1,6 @@
-package org.example.domain;
+package com.gathergrid.domain;
 
-import org.example.domain.enums.TicketType;
+import com.gathergrid.domain.enums.TicketType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

@@ -1,29 +1,24 @@
-package org.example.controller;
+package com.gathergrid.controller;
 
+import com.gathergrid.service.EventService;
 import jakarta.servlet.ServletException;
-import jakarta.servlet.http.*;
-import jakarta.servlet.annotation.*;
-import org.example.service.EventService;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(name = "helloServlet" , value = "", loadOnStartup = 1)
+@WebServlet(name = "helloServlet", value = "")
 public class HelloServlet extends HttpServlet {
 
     @Override
-    public void init() throws ServletException {
-        super.init();
-        EventService eventService = new EventService();
-
-    }
-    @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
-            throws ServletException, IOException {
+            throws IOException {
 
         // Set the response content type
         response.setContentType("text/html");
-
         // Get the PrintWriter to write the response
         PrintWriter out = response.getWriter();
 
