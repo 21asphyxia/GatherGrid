@@ -1,4 +1,3 @@
-![image](https://github.com/21asphyxia/GatherGrid/assets/71402078/ab5f9146-d23b-4357-978c-7aff66afbc3b)
 # Project Startup Guide
 ## GatherGrid
 [Presentation](https://docs.google.com/presentation/d/1LhppDBj6BLlZ_dubAl7rhY5PF64PSxqh/edit?usp=sharing&ouid=110829709193933141919&rtpof=true&sd=true)
